@@ -1,0 +1,62 @@
+
+<!DCTYPE HTML>
+<html>
+    <head>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="proto.css">
+   <script src="proto.js"></script>
+    </head>
+    <body>
+        <div id="part1">
+        <div id="heading">
+           <span>cpu scheduling algorithms</span>
+            </div>
+      
+        <div id="inside">
+         <div class="l">
+        <label>enter the type of scheduling : </label> 
+        <select onchange="myfirst()" id="select">
+         <option >preemptive priority </option> 
+         <option >round robing </option> 
+         </select>
+        </div>
+       <div class="l">
+        <label>enter the no of process : </label>
+      <input type="text" id="p1" name="process">
+        </div>
+        <div class="l">
+    <label>enter the burst time : </label>
+        <input type="text" id="p2" name="process2">         
+        </div>
+        <div class="l">
+        <label>enter arrival time : </label>
+        <input type="text" id="p3" name="process3">
+        </div>
+          <div class="l">
+    <label id="lb">enter the priority : </label>
+        <input type="text" id="p4" name="process2">         
+        </div >
+          <div id="b1">
+           <button name="but" onclick="myFunction()" >ok</button>
+            </div>
+        </div>
+     
+        </div>
+        
+         <div id="part2">
+          <span id="naming"></span>
+          <div id="demo">
+        </div>
+        <div id="cd">
+            <span id="cd1"></span>
+            
+             </div></div>
+        <div id="part3">
+         <span>gann chart diagram</span>
+        <div id="demo1">
+           
+        </div>
+        </div>
+        
+     </body>
+</html>
